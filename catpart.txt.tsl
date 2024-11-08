@@ -1,0 +1,465 @@
+
+Test Case 1  		<error>
+   Skip Lines :  non-valid param
+
+
+Test Case 2  		<error>
+   Skip Lines :  missing parameter
+
+
+Test Case 3  		<error>
+   Remove White spaces :  non-valid param
+
+
+Test Case 4  		<error>
+   Remove White spaces :  missing param
+
+
+Test Case 5  		<error>  (follows [else])
+   Remove Empty Lines :  present
+
+
+Test Case 6  		<error>
+   Reverse Lines :  non-valid param
+
+
+Test Case 7  		<error>
+   Reverse Lines :  missing param
+
+
+Test Case 8  		<error>
+   Add Prefix :  missing param
+
+
+Test Case 9  		<single>  (follows [if])
+   Lines :  no lines for removal of empty lines
+
+
+Test Case 10 		<single>  (follows [if])
+   Lines :  no lines for removal of white lines
+
+
+Test Case 11 		<single>  (follows [if])
+   Lines :  no lines for skip lines
+
+
+Test Case 12 		<single>  (follows [if])
+   Lines :  no lines for reverse lines
+
+
+Test Case 13 		<single>  (follows [if])
+   Lines :  no lines for add prefix
+
+
+Test Case 14 		<single>  (follows [if])
+   Lines :  one lines for removal of empty lines
+
+
+Test Case 15 		<single>  (follows [if])
+   Lines :  one line for skip lines
+
+
+Test Case 16 		(Key = 1.1.1.1.1.1.)
+   Skip Lines          :  option not present
+   Remove White spaces :  option not present
+   Remove Empty Lines  :  option not present
+   Reverse Lines       :  option not present
+   Add Prefix          :  any other
+   Lines               :  more than one line
+
+
+Test Case 17 		(Key = 1.1.1.2.1.1.)
+   Skip Lines          :  option not present
+   Remove White spaces :  option not present
+   Remove Empty Lines  :  option not present
+   Reverse Lines       :  words
+   Add Prefix          :  any other
+   Lines               :  more than one line
+
+
+Test Case 18 		(Key = 1.1.1.3.1.1.)
+   Skip Lines          :  option not present
+   Remove White spaces :  option not present
+   Remove Empty Lines  :  option not present
+   Reverse Lines       :  text
+   Add Prefix          :  any other
+   Lines               :  more than one line
+
+
+Test Case 19 		(Key = 1.1.2.1.1.1.)
+   Skip Lines          :  option not present
+   Remove White spaces :  option not present
+   Remove Empty Lines  :  present
+   Reverse Lines       :  option not present
+   Add Prefix          :  any other
+   Lines               :  more than one line
+
+
+Test Case 20 		(Key = 1.1.2.2.1.1.)
+   Skip Lines          :  option not present
+   Remove White spaces :  option not present
+   Remove Empty Lines  :  present
+   Reverse Lines       :  words
+   Add Prefix          :  any other
+   Lines               :  more than one line
+
+
+Test Case 21 		(Key = 1.1.2.3.1.1.)
+   Skip Lines          :  option not present
+   Remove White spaces :  option not present
+   Remove Empty Lines  :  present
+   Reverse Lines       :  text
+   Add Prefix          :  any other
+   Lines               :  more than one line
+
+
+Test Case 22 		(Key = 1.2.1.1.1.1.)
+   Skip Lines          :  option not present
+   Remove White spaces :  leading
+   Remove Empty Lines  :  option not present
+   Reverse Lines       :  option not present
+   Add Prefix          :  any other
+   Lines               :  more than one line
+
+
+Test Case 23 		(Key = 1.2.1.2.1.1.)
+   Skip Lines          :  option not present
+   Remove White spaces :  leading
+   Remove Empty Lines  :  option not present
+   Reverse Lines       :  words
+   Add Prefix          :  any other
+   Lines               :  more than one line
+
+
+Test Case 24 		(Key = 1.2.1.3.1.1.)
+   Skip Lines          :  option not present
+   Remove White spaces :  leading
+   Remove Empty Lines  :  option not present
+   Reverse Lines       :  text
+   Add Prefix          :  any other
+   Lines               :  more than one line
+
+
+Test Case 25 		(Key = 1.3.1.1.1.1.)
+   Skip Lines          :  option not present
+   Remove White spaces :  trailing
+   Remove Empty Lines  :  option not present
+   Reverse Lines       :  option not present
+   Add Prefix          :  any other
+   Lines               :  more than one line
+
+
+Test Case 26 		(Key = 1.3.1.2.1.1.)
+   Skip Lines          :  option not present
+   Remove White spaces :  trailing
+   Remove Empty Lines  :  option not present
+   Reverse Lines       :  words
+   Add Prefix          :  any other
+   Lines               :  more than one line
+
+
+Test Case 27 		(Key = 1.3.1.3.1.1.)
+   Skip Lines          :  option not present
+   Remove White spaces :  trailing
+   Remove Empty Lines  :  option not present
+   Reverse Lines       :  text
+   Add Prefix          :  any other
+   Lines               :  more than one line
+
+
+Test Case 28 		(Key = 1.4.1.1.1.1.)
+   Skip Lines          :  option not present
+   Remove White spaces :  all
+   Remove Empty Lines  :  option not present
+   Reverse Lines       :  option not present
+   Add Prefix          :  any other
+   Lines               :  more than one line
+
+
+Test Case 29 		(Key = 1.4.1.2.1.1.)
+   Skip Lines          :  option not present
+   Remove White spaces :  all
+   Remove Empty Lines  :  option not present
+   Reverse Lines       :  words
+   Add Prefix          :  any other
+   Lines               :  more than one line
+
+
+Test Case 30 		(Key = 1.4.1.3.1.1.)
+   Skip Lines          :  option not present
+   Remove White spaces :  all
+   Remove Empty Lines  :  option not present
+   Reverse Lines       :  text
+   Add Prefix          :  any other
+   Lines               :  more than one line
+
+
+Test Case 31 		(Key = 2.1.1.1.1.1.)
+   Skip Lines          :  0
+   Remove White spaces :  option not present
+   Remove Empty Lines  :  option not present
+   Reverse Lines       :  option not present
+   Add Prefix          :  any other
+   Lines               :  more than one line
+
+
+Test Case 32 		(Key = 2.1.1.2.1.1.)
+   Skip Lines          :  0
+   Remove White spaces :  option not present
+   Remove Empty Lines  :  option not present
+   Reverse Lines       :  words
+   Add Prefix          :  any other
+   Lines               :  more than one line
+
+
+Test Case 33 		(Key = 2.1.1.3.1.1.)
+   Skip Lines          :  0
+   Remove White spaces :  option not present
+   Remove Empty Lines  :  option not present
+   Reverse Lines       :  text
+   Add Prefix          :  any other
+   Lines               :  more than one line
+
+
+Test Case 34 		(Key = 2.1.2.1.1.1.)
+   Skip Lines          :  0
+   Remove White spaces :  option not present
+   Remove Empty Lines  :  present
+   Reverse Lines       :  option not present
+   Add Prefix          :  any other
+   Lines               :  more than one line
+
+
+Test Case 35 		(Key = 2.1.2.2.1.1.)
+   Skip Lines          :  0
+   Remove White spaces :  option not present
+   Remove Empty Lines  :  present
+   Reverse Lines       :  words
+   Add Prefix          :  any other
+   Lines               :  more than one line
+
+
+Test Case 36 		(Key = 2.1.2.3.1.1.)
+   Skip Lines          :  0
+   Remove White spaces :  option not present
+   Remove Empty Lines  :  present
+   Reverse Lines       :  text
+   Add Prefix          :  any other
+   Lines               :  more than one line
+
+
+Test Case 37 		(Key = 2.2.1.1.1.1.)
+   Skip Lines          :  0
+   Remove White spaces :  leading
+   Remove Empty Lines  :  option not present
+   Reverse Lines       :  option not present
+   Add Prefix          :  any other
+   Lines               :  more than one line
+
+
+Test Case 38 		(Key = 2.2.1.2.1.1.)
+   Skip Lines          :  0
+   Remove White spaces :  leading
+   Remove Empty Lines  :  option not present
+   Reverse Lines       :  words
+   Add Prefix          :  any other
+   Lines               :  more than one line
+
+
+Test Case 39 		(Key = 2.2.1.3.1.1.)
+   Skip Lines          :  0
+   Remove White spaces :  leading
+   Remove Empty Lines  :  option not present
+   Reverse Lines       :  text
+   Add Prefix          :  any other
+   Lines               :  more than one line
+
+
+Test Case 40 		(Key = 2.3.1.1.1.1.)
+   Skip Lines          :  0
+   Remove White spaces :  trailing
+   Remove Empty Lines  :  option not present
+   Reverse Lines       :  option not present
+   Add Prefix          :  any other
+   Lines               :  more than one line
+
+
+Test Case 41 		(Key = 2.3.1.2.1.1.)
+   Skip Lines          :  0
+   Remove White spaces :  trailing
+   Remove Empty Lines  :  option not present
+   Reverse Lines       :  words
+   Add Prefix          :  any other
+   Lines               :  more than one line
+
+
+Test Case 42 		(Key = 2.3.1.3.1.1.)
+   Skip Lines          :  0
+   Remove White spaces :  trailing
+   Remove Empty Lines  :  option not present
+   Reverse Lines       :  text
+   Add Prefix          :  any other
+   Lines               :  more than one line
+
+
+Test Case 43 		(Key = 2.4.1.1.1.1.)
+   Skip Lines          :  0
+   Remove White spaces :  all
+   Remove Empty Lines  :  option not present
+   Reverse Lines       :  option not present
+   Add Prefix          :  any other
+   Lines               :  more than one line
+
+
+Test Case 44 		(Key = 2.4.1.2.1.1.)
+   Skip Lines          :  0
+   Remove White spaces :  all
+   Remove Empty Lines  :  option not present
+   Reverse Lines       :  words
+   Add Prefix          :  any other
+   Lines               :  more than one line
+
+
+Test Case 45 		(Key = 2.4.1.3.1.1.)
+   Skip Lines          :  0
+   Remove White spaces :  all
+   Remove Empty Lines  :  option not present
+   Reverse Lines       :  text
+   Add Prefix          :  any other
+   Lines               :  more than one line
+
+
+Test Case 46 		(Key = 3.1.1.1.1.1.)
+   Skip Lines          :  1
+   Remove White spaces :  option not present
+   Remove Empty Lines  :  option not present
+   Reverse Lines       :  option not present
+   Add Prefix          :  any other
+   Lines               :  more than one line
+
+
+Test Case 47 		(Key = 3.1.1.2.1.1.)
+   Skip Lines          :  1
+   Remove White spaces :  option not present
+   Remove Empty Lines  :  option not present
+   Reverse Lines       :  words
+   Add Prefix          :  any other
+   Lines               :  more than one line
+
+
+Test Case 48 		(Key = 3.1.1.3.1.1.)
+   Skip Lines          :  1
+   Remove White spaces :  option not present
+   Remove Empty Lines  :  option not present
+   Reverse Lines       :  text
+   Add Prefix          :  any other
+   Lines               :  more than one line
+
+
+Test Case 49 		(Key = 3.1.2.1.1.1.)
+   Skip Lines          :  1
+   Remove White spaces :  option not present
+   Remove Empty Lines  :  present
+   Reverse Lines       :  option not present
+   Add Prefix          :  any other
+   Lines               :  more than one line
+
+
+Test Case 50 		(Key = 3.1.2.2.1.1.)
+   Skip Lines          :  1
+   Remove White spaces :  option not present
+   Remove Empty Lines  :  present
+   Reverse Lines       :  words
+   Add Prefix          :  any other
+   Lines               :  more than one line
+
+
+Test Case 51 		(Key = 3.1.2.3.1.1.)
+   Skip Lines          :  1
+   Remove White spaces :  option not present
+   Remove Empty Lines  :  present
+   Reverse Lines       :  text
+   Add Prefix          :  any other
+   Lines               :  more than one line
+
+
+Test Case 52 		(Key = 3.2.1.1.1.1.)
+   Skip Lines          :  1
+   Remove White spaces :  leading
+   Remove Empty Lines  :  option not present
+   Reverse Lines       :  option not present
+   Add Prefix          :  any other
+   Lines               :  more than one line
+
+
+Test Case 53 		(Key = 3.2.1.2.1.1.)
+   Skip Lines          :  1
+   Remove White spaces :  leading
+   Remove Empty Lines  :  option not present
+   Reverse Lines       :  words
+   Add Prefix          :  any other
+   Lines               :  more than one line
+
+
+Test Case 54 		(Key = 3.2.1.3.1.1.)
+   Skip Lines          :  1
+   Remove White spaces :  leading
+   Remove Empty Lines  :  option not present
+   Reverse Lines       :  text
+   Add Prefix          :  any other
+   Lines               :  more than one line
+
+
+Test Case 55 		(Key = 3.3.1.1.1.1.)
+   Skip Lines          :  1
+   Remove White spaces :  trailing
+   Remove Empty Lines  :  option not present
+   Reverse Lines       :  option not present
+   Add Prefix          :  any other
+   Lines               :  more than one line
+
+
+Test Case 56 		(Key = 3.3.1.2.1.1.)
+   Skip Lines          :  1
+   Remove White spaces :  trailing
+   Remove Empty Lines  :  option not present
+   Reverse Lines       :  words
+   Add Prefix          :  any other
+   Lines               :  more than one line
+
+
+Test Case 57 		(Key = 3.3.1.3.1.1.)
+   Skip Lines          :  1
+   Remove White spaces :  trailing
+   Remove Empty Lines  :  option not present
+   Reverse Lines       :  text
+   Add Prefix          :  any other
+   Lines               :  more than one line
+
+
+Test Case 58 		(Key = 3.4.1.1.1.1.)
+   Skip Lines          :  1
+   Remove White spaces :  all
+   Remove Empty Lines  :  option not present
+   Reverse Lines       :  option not present
+   Add Prefix          :  any other
+   Lines               :  more than one line
+
+
+Test Case 59 		(Key = 3.4.1.2.1.1.)
+   Skip Lines          :  1
+   Remove White spaces :  all
+   Remove Empty Lines  :  option not present
+   Reverse Lines       :  words
+   Add Prefix          :  any other
+   Lines               :  more than one line
+
+
+Test Case 60 		(Key = 3.4.1.3.1.1.)
+   Skip Lines          :  1
+   Remove White spaces :  all
+   Remove Empty Lines  :  option not present
+   Reverse Lines       :  text
+   Add Prefix          :  any other
+   Lines               :  more than one line
+

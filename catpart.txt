@@ -1,0 +1,44 @@
+# Options to add
+Options:
+    Skip Lines: # -s 
+        option not present.     # this option (i.e. -s) is not present
+        0.                      [property SkipLines]
+        1.                      [property SkipLines]
+        non-valid param.        [error] # number or other character
+        missing parameter.      [error]
+
+    Remove White spaces: # -w
+        option not present.     
+        leading.                [property RemoveWhiteSpaces]
+        trailing.               [property RemoveWhiteSpaces]
+        all.                    [property RemoveWhiteSpaces]
+        non-valid param.        [error]
+        missing param.          [error]
+
+    Remove Empty Lines: # -x
+        option not present.    
+        present.                [if !RemoveWhiteSpaces] [property RemoveEmptyLines]
+                                [else] [error]
+        
+    Reverse Lines: # -r
+        option not present.
+        words.                  [property ReverseLines]
+        text.                   [property ReverseLines]
+        non-valid param.        [error]
+        missing param.          [error] 
+
+    Add Prefix: # -p
+        any other.              [property AddPrefix]
+        missing param.          [error]
+
+# A number of lines the file will contain
+Environment:
+    Lines:
+        more than one line.
+        no lines for removal of empty lines.       [if RemoveEmptyLines]  [single]
+        no lines for removal of whitespaced lines. [if RemoveWhiteSpaces] [single]
+        no lines for skip lines.                   [if SkipLines]         [single]
+        no lines for reverse lines.                [if ReverseLines]      [single]
+        no lines for add prefix.                   [if AddPrefix]         [single]
+        one lines for removal of empty lines.      [if RemoveEmptyLines]  [single]
+        one line for skip lines.                   [if SkipLines]         [single]
